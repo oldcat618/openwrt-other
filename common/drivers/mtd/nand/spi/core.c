@@ -766,6 +766,7 @@ static const struct spinand_manufacturer *spinand_manufacturers[] = {
 	&fmsh_spinand_manufacturer,
 	&dosilicon_spinand_manufacturer,
 	&gsto_spinand_manufacturer,
+	&wodposit_spinand_manufacturer,
 };
 
 static int spinand_manufacturer_match(struct spinand_device *spinand,
